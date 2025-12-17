@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+    <head>
+        <title>Formularios</title>
+    </head>
+    <body style="font-size: 20px;">
+        <h3>Formularios</h3>
+        mailto:escribetucorreoreal@educa.madrid.org.com?subject=tarea_de_marcas<br><br>
+        <form action="datospersonales.php" method="post" >
+            <fieldset>
+                <legend>Datos personales</legend>
+                Nombre (requerido):<br>
+			    <input name="nombre" type="text" size="20" required><br><br>
+                Edad (Solo debe aceptar un número):<br>
+			    <input name="edad" type="number" size="20"><br><br>
+                Email:<br>
+			    <input name="email" type="email" size="20"><br><br>
+                Curso:<br>
+                <select name="curso">
+                    <option name="basico">HTML básico</option>
+                    <option name="medio">HTML medio</option>
+                    <option name="avanzado">HTML avanzado</option>
+                </select><br><br>
+                Comentarios:<br>
+                <textarea cols="50" rows="5">
+                </textarea><br><br>
+                <button name="enviar" type="button" onclick="location.href='mailto:jjar24@educa.madrid.org.com?subject=tarea_de_marcas'">Enviar</button>
+            </fieldset>
+        </form>
+		<p>
+            <a href="..\index.html">Volver al índice</a>
+        </p>
+    </body>
+</html>
+       
+
+			
+			
+			
